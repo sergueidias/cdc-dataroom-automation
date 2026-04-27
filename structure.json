@@ -1,132 +1,260 @@
 {
-  "name": "dataroom",
-  "title": "Dataroom",
-  "description": "Estrutura base de dataroom para organizacao de documentos operacionais, financeiros, juridicos e comerciais.",
+  "name": "CDC_DIR_PreDiligence",
+  "title": "Casa de Criadores · DIR Pre-Diligence",
+  "description": "Data room preliminar para coleta documental da Casa de Criadores em contexto de M&A turnaround, reestruturação e análise Go / No-Go.",
   "children": [
     {
-      "name": "01-visao-geral",
-      "title": "Visao Geral",
-      "description": "Documentos introdutorios, sumario executivo e contexto do projeto.",
+      "name": "00_READ_FIRST_GOVERNANCA",
+      "title": "Read First · Governança do Data Room",
+      "description": "Instruções gerais, regras de nomenclatura, responsáveis, controle de versões e orientação para upload documental."
+    },
+    {
+      "name": "01_ESTRUTURA_SOCIETARIA_E_JURIDICA",
+      "title": "Estrutura Societária e Jurídica",
+      "description": "Contratos sociais, estatuto, CNPJs envolvidos, quadro societário, poderes de representação e vínculos jurídicos aparentes.",
       "children": [
         {
-          "name": "empresa",
-          "title": "Empresa",
-          "description": "Materiais institucionais, apresentacao da empresa e contexto operacional."
+          "name": "contrato_social_estatuto",
+          "title": "Contrato Social / Estatuto",
+          "description": "Documentos constitutivos do Instituto Casa de Criadores e demais entidades vinculadas."
         },
         {
-          "name": "produto",
-          "title": "Produto",
-          "description": "Documentos sobre produto, proposta de valor e operacao do sistema."
+          "name": "mapa_cnpjs",
+          "title": "Mapa de CNPJs",
+          "description": "Lista de todos os CNPJs envolvidos na operação, com função, titularidade e situação cadastral."
+        },
+        {
+          "name": "quadro_societario",
+          "title": "Quadro Societário",
+          "description": "Identificação de sócios, administradores, representantes legais e vínculos aparentes."
         }
       ]
     },
     {
-      "name": "02-financeiro",
-      "title": "Financeiro",
-      "description": "Planilhas, relatorios e documentos relacionados a desempenho financeiro.",
+      "name": "02_MARCA_E_PROPRIEDADE_INTELECTUAL",
+      "title": "Marca e Propriedade Intelectual",
+      "description": "Documentos que comprovem titularidade, registro, licenciamento, cessão ou uso da marca Casa de Criadores.",
       "children": [
         {
-          "name": "dre",
-          "title": "DRE",
-          "description": "Demonstrativos de resultado e visoes consolidadas."
+          "name": "registro_inpi",
+          "title": "Registro INPI",
+          "description": "Comprovantes de registro, pedidos, renovações e situação atual da marca no INPI."
         },
         {
-          "name": "fluxo-de-caixa",
+          "name": "licenciamento_cessao",
+          "title": "Licenciamento / Cessão",
+          "description": "Contratos de licença, cessão, autorização de uso ou transferência da marca."
+        },
+        {
+          "name": "titularidade",
+          "title": "Titularidade",
+          "description": "Documentação que demonstre quem é o titular jurídico da marca e em que entidade ela está registrada."
+        }
+      ]
+    },
+    {
+      "name": "03_PASSIVOS_CONTENCIOSO",
+      "title": "Passivos e Contencioso",
+      "description": "Dívidas, processos judiciais, protestos, bloqueios, acordos com credores, parcelamentos e obrigações em aberto.",
+      "children": [
+        {
+          "name": "processos_judiciais",
+          "title": "Processos Judiciais",
+          "description": "Ações em andamento, execuções, bloqueios, decisões relevantes e documentos processuais."
+        },
+        {
+          "name": "protestos",
+          "title": "Protestos",
+          "description": "Certidões, apontamentos, valores, credores e situação atual dos protestos."
+        },
+        {
+          "name": "acordos_parcelamentos",
+          "title": "Acordos e Parcelamentos",
+          "description": "Acordos firmados, propostas em negociação, parcelamentos existentes e condições de pagamento."
+        },
+        {
+          "name": "fornecedores_em_aberto",
+          "title": "Fornecedores em Aberto",
+          "description": "Lista de fornecedores credores, valores devidos, criticidade e possibilidade de negociação."
+        }
+      ]
+    },
+    {
+      "name": "04_ATIVOS_E_RECEBIVEIS",
+      "title": "Ativos e Recebíveis",
+      "description": "Contratos ativos, patrocínios, editais aprovados, emendas, cronograma de recebíveis e contratos públicos vinculados.",
+      "children": [
+        {
+          "name": "patrocinios",
+          "title": "Patrocínios",
+          "description": "Contratos ativos de patrocínio, valores, prazos, obrigações e status de pagamento."
+        },
+        {
+          "name": "editais_leis_incentivo",
+          "title": "Editais e Leis de Incentivo",
+          "description": "PROAC, Rouanet, editais públicos, termos de aprovação e obrigações de prestação de contas."
+        },
+        {
+          "name": "emendas_contratos_publicos",
+          "title": "Emendas e Contratos Públicos",
+          "description": "Documentos relativos a emendas, contratos públicos, convênios e instrumentos institucionais."
+        },
+        {
+          "name": "cronograma_recebiveis",
+          "title": "Cronograma de Recebíveis",
+          "description": "Datas previstas, valores, condições de liberação e bloqueios que impactem o acesso aos recursos."
+        }
+      ]
+    },
+    {
+      "name": "05_FINANCEIRO_CONTABIL",
+      "title": "Financeiro e Contábil",
+      "description": "Fluxo de caixa, balanços, demonstrativos, obrigações fiscais, situação contábil e documentos de suporte financeiro.",
+      "children": [
+        {
+          "name": "fluxo_caixa",
           "title": "Fluxo de Caixa",
-          "description": "Acompanhamento de entradas, saidas e previsoes."
+          "description": "Entradas, saídas, previsões, caixa disponível e necessidades imediatas."
         },
         {
-          "name": "faturamento",
-          "title": "Faturamento",
-          "description": "Documentos de receita, contratos faturados e historico de cobranca."
+          "name": "balancos_demonstrativos",
+          "title": "Balanços e Demonstrativos",
+          "description": "Balanços, DREs, relatórios contábeis e demonstrativos disponíveis."
+        },
+        {
+          "name": "obrigacoes_fiscais",
+          "title": "Obrigações Fiscais",
+          "description": "Pendências fiscais, certidões, tributos em aberto e parcelamentos tributários."
+        },
+        {
+          "name": "extratos_comprovantes",
+          "title": "Extratos e Comprovantes",
+          "description": "Extratos bancários, comprovantes de pagamento e documentos financeiros de suporte."
         }
       ]
     },
     {
-      "name": "03-juridico",
-      "title": "Juridico",
-      "description": "Contratos, documentos societarios e registros legais.",
+      "name": "06_OPERACAO_E_GOVERNANCA",
+      "title": "Operação e Governança",
+      "description": "Organograma, responsáveis por decisão, financeiro, jurídico, captação, produção e rotinas operacionais.",
       "children": [
         {
-          "name": "contratos",
-          "title": "Contratos",
-          "description": "Contratos com clientes, parceiros e fornecedores."
+          "name": "organograma",
+          "title": "Organograma",
+          "description": "Estrutura atual da equipe, funções, responsabilidades e linhas de decisão."
         },
         {
-          "name": "societario",
-          "title": "Societario",
-          "description": "Documentos de constituicao, alteracoes e governanca."
+          "name": "tomada_decisao",
+          "title": "Tomada de Decisão",
+          "description": "Quem decide, quem aprova despesas, quem assina contratos e quem executa operações críticas."
         },
         {
-          "name": "compliance",
-          "title": "Compliance",
-          "description": "Politicas internas, termos, riscos e registros de conformidade."
+          "name": "producao_eventos",
+          "title": "Produção e Eventos",
+          "description": "Documentos de operação dos eventos, fornecedores, cronogramas, custos e responsabilidades."
+        },
+        {
+          "name": "captacao_relacoes_institucionais",
+          "title": "Captação e Relações Institucionais",
+          "description": "Responsáveis, histórico de captação, parceiros, patrocinadores e relações institucionais."
         }
       ]
     },
     {
-      "name": "04-operacao",
-      "title": "Operacao",
-      "description": "Processos, playbooks e artefatos necessarios para a execucao do negocio.",
+      "name": "07_COMPLIANCE_EDITAIS_E_REPUTACIONAL",
+      "title": "Compliance de Editais e Reputacional",
+      "description": "Prestação de contas, pendências com órgãos públicos, riscos institucionais, mídia, imprensa e reputação da marca.",
       "children": [
         {
-          "name": "processos",
-          "title": "Processos",
-          "description": "Fluxos operacionais e instrucoes recorrentes."
+          "name": "prestacao_contas",
+          "title": "Prestação de Contas",
+          "description": "Relatórios, comprovantes, aprovações, pendências e obrigações de prestação de contas."
         },
         {
-          "name": "fornecedores",
-          "title": "Fornecedores",
-          "description": "Cadastros, contratos e materiais de apoio de fornecedores."
+          "name": "pendencias_orgaos_publicos",
+          "title": "Pendências com Órgãos Públicos",
+          "description": "Comunicações, notificações, bloqueios, restrições e pendências junto a órgãos públicos."
         },
         {
-          "name": "seguranca",
-          "title": "Seguranca",
-          "description": "Controles, politicas e evidencias de seguranca operacional."
+          "name": "midia_imprensa",
+          "title": "Mídia e Imprensa",
+          "description": "Matérias, clipping, menções públicas, histórico reputacional e percepção de mercado."
+        },
+        {
+          "name": "riscos_reputacionais",
+          "title": "Riscos Reputacionais",
+          "description": "Registros de crise, conflitos, denúncias, ruídos públicos ou riscos de imagem."
         }
       ]
     },
     {
-      "name": "05-comercial",
-      "title": "Comercial",
-      "description": "Pipeline comercial, clientes e materiais de vendas.",
+      "name": "08_DECISAO_ESTRATEGICA_ANDRE",
+      "title": "Definição Estratégica do André",
+      "description": "Documentos e registros que esclareçam se o caminho é aporte, sócio operacional, venda parcial ou venda total da marca.",
       "children": [
         {
-          "name": "clientes",
-          "title": "Clientes",
-          "description": "Materiais por conta, propostas e historico comercial."
+          "name": "carta_intencao",
+          "title": "Carta de Intenção",
+          "description": "Declaração inicial de intenção sobre venda, diluição, governança, auditoria e controle."
         },
         {
-          "name": "propostas",
-          "title": "Propostas",
-          "description": "Propostas enviadas, templates e versoes aprovadas."
+          "name": "cenarios_negociacao",
+          "title": "Cenários de Negociação",
+          "description": "Alternativas de aporte, sociedade, licenciamento, venda parcial ou venda integral."
         },
         {
-          "name": "materiais",
-          "title": "Materiais",
-          "description": "Apresentacoes, one-pagers e materiais de apoio comercial."
+          "name": "governanca_futura",
+          "title": "Governança Futura",
+          "description": "Premissas sobre papel do André, direitos de decisão, curadoria, controle e saída operacional."
         }
       ]
     },
     {
-      "name": "06-tecnologia",
-      "title": "Tecnologia",
-      "description": "Arquitetura, acessos operacionais e documentacao tecnica.",
+      "name": "09_RED_FLAGS_E_MISSING_DOCS",
+      "title": "Red Flags e Documentos Ausentes",
+      "description": "Registro de documentos não entregues, inconsistências, lacunas críticas e alertas jurídicos, financeiros ou reputacionais.",
       "children": [
         {
-          "name": "arquitetura",
-          "title": "Arquitetura",
-          "description": "Diagramas, decisoes tecnicas e descricoes de componentes."
+          "name": "documentos_nao_entregues",
+          "title": "Documentos Não Entregues",
+          "description": "Lista objetiva de documentos solicitados e ainda não recebidos."
         },
         {
-          "name": "documentacao",
-          "title": "Documentacao",
-          "description": "Guias operacionais, notas tecnicas e historico de manutencao."
+          "name": "inconsistencias",
+          "title": "Inconsistências",
+          "description": "Divergências entre documentos, declarações, valores, datas, CNPJs ou responsáveis."
         },
         {
-          "name": "acessos",
-          "title": "Acessos",
-          "description": "Inventario de acessos e instrucoes de administracao."
+          "name": "alertas_criticos",
+          "title": "Alertas Críticos",
+          "description": "Riscos que podem impedir ou alterar a tese de investimento, aquisição ou turnaround."
+        }
+      ]
+    },
+    {
+      "name": "10_OUTPUTS_ANALITICOS",
+      "title": "Outputs Analíticos",
+      "description": "Relatórios, mapas, memorandos, pareceres preliminares, Investment Screening Memo e Go / No-Go Memo.",
+      "children": [
+        {
+          "name": "mapas_consolidados",
+          "title": "Mapas Consolidados",
+          "description": "Mapa de CNPJs, passivos, ativos, riscos, responsáveis e pendências."
+        },
+        {
+          "name": "memo_flavio",
+          "title": "Memo Jurídico / Flávio",
+          "description": "Relatórios e leituras preliminares produzidas pelo jurídico."
+        },
+        {
+          "name": "investment_screening_memo",
+          "title": "Investment Screening Memo",
+          "description": "Documento executivo para avaliação preliminar de viabilidade e apresentação a investidor."
+        },
+        {
+          "name": "go_no_go_memo",
+          "title": "Go / No-Go Memo",
+          "description": "Documento de decisão final sobre continuidade, abandono ou avanço com restrições."
         }
       ]
     }
