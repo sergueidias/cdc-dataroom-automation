@@ -1,2 +1,3 @@
-# Sem dependencias externas.
-# O utilitario create_drive_dataroom.py usa apenas a biblioteca padrao do Python 3.10+.
+# create_drive_dataroom.py usa apenas a biblioteca padrao do Python 3.10+.
+# create_master_risk_register.py depende de openpyxl para gerar o template Excel.
+openpyxl>=3.1
